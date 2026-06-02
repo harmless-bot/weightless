@@ -54,5 +54,4 @@ sudo ./target/release/weightless --verbose
 ## Legal Disclaimer
 **FOR EDUCATIONAL AND CTF USE ONLY.** The techniques described and implemented in this project are for cybersecurity research, CTF (Capture The Flag) competitions, and defensive educational purposes. The provided stub is completely benign (NOP+RET). Do not use this tool for any malicious activities. The author assumes no liability for the misuse of this tool.
 
-## About the Author — Divyanshu Rai
-Divyanshu Rai is a cybersecurity student and CTF competitor based at Chandigarh University, Ludhiana. He is passionate about offensive security engineering, systems programming, and modern defense evasion tradecraft.
+ Author — Divyanshu Rai
