@@ -1,0 +1,22 @@
+[package]
+name = "weightless"
+version = "0.1.0"
+edition = "2021"
+authors = ["Divyanshu Rai"]
+description = "Fileless payload execution simulator — CTF/educational use only"
+
+[dependencies]
+reqwest  = { version = "0.12", features = ["blocking"] }
+clap     = { version = "4",    features = ["derive"]   }
+colored  = "2"
+anyhow   = "1"
+ctrlc    = "3"
+sha2     = "0.10"
+
+[target.'cfg(unix)'.dependencies]
+libc = "0.2"
+
+[profile.release]
+strip     = true
+opt-level = 3
+lto       = true
