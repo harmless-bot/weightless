@@ -1,5 +1,5 @@
 # Weightless — Fileless Execution Simulator
-> by Divyanshu Rai | Chandigarh University, Ludhiana
+> by Divyanshu Rai 
 
 ## What Is This?
 Weightless is a controlled, educational fileless execution simulator designed to demonstrate how real-world Advanced Persistent Threats (APTs) and modern malware stage payloads directly in memory. By bypassing the disk entirely, fileless execution evades traditional Anti-Virus (AV) solutions that rely on scanning files written to the hard drive. This project simulates this tradecraft in a safe, isolated lab environment using a benign NOP+RET stub. It highlights the in-memory staging techniques often seen in frameworks like Cobalt Strike.
